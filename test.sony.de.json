@@ -4,7 +4,7 @@
     {
       "pageURL": "https://www.sony.de/",
       "jQueryLoaded": true,
-      "jQueryMinVersion": "1.12",
+      "jQueryMinVersion": "1.8.1",
       "dataLayerElementValue": [
         { "name":"new SonyAnalytics().build().analytics.page.name", "value": "home" },
         { "name":"new SonyAnalytics().build().analytics.page.template", "value": "home" }
@@ -14,15 +14,16 @@
       "adobe.AnalyticsCodeLoaded": true,
       "adobe.AnalyticsCodeType": "AppMeasurement",
       "adobe.AnalyticsCodeMinVersion": "1.7",
-      "adobe.AnalyticsTagForReportSuiteFired": "sonygwt-eu-prod"
+      "adobe.AnalyticsTagForReportSuiteFired": "sonygwt-eu-prod",
+      "others.EnsightenManageLoaded": true
     },
     {
       "pageURL": "https://www.sony.co.uk/electronics/sound-bars/ht-st5000?cpint=1:HOMEPAGE_THELATEST8SPAN_CES2017HTST5000_0960",
       "jQueryLoaded": true,
-      "jQueryMinVersion": "1.12",
+      "jQueryMinVersion": "1.8",
       "dataLayerElementValue": [
-        { "name": "s.pageName", "value": "glb:pdp:tv-home-cinema:home-cinema:HT-ST5000" },
-        { "name": "s.eVar11", "value": "1:HOMEPAGE_THELATEST8SPAN_CES2017HTST5000_0960" },
+        { "name": "window.s.pageName", "value": "glb:pdp:tv-home-cinema:home-cinema:HT-ST5000" },
+        { "name": "window.s.eVar11", "value": "1:HOMEPAGE_THELATEST8SPAN_CES2017HTST5000_0960" },
         { "name": "new SonyAnalytics().build().analytics.product.category2", "value": "home-cinema" } ],
       "dataLayerNumericElementValue": [
         { "name": "new SonyAnalytics().build().analytics.product.facebook_likes", "value": 0 }
@@ -32,7 +33,8 @@
       "adobe.AnalyticsCodeLoaded": true,
       "adobe.AnalyticsCodeType": "AppMeasurement",
       "adobe.AnalyticsCodeMinVersion": "1.7",
-      "adobe.AnalyticsTagForReportSuiteFired": "sonygwt-eu-prod"
+      "adobe.AnalyticsTagForReportSuiteFired": "sonygwt-eu-prod",
+      "others.EnsightenManageLoaded": true
     }
   ]
 }
