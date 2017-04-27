@@ -4,8 +4,8 @@ import com.exner.tools.analyticstdd.SiteInfrastructureTests.Tools;
 import com.exner.tools.analyticstdd.SiteInfrastructureTests.tests.WebDriverBasedTestCase;
 
 public class EnsightenManageLoadedTestCase extends WebDriverBasedTestCase {
-	
-	public EnsightenManageLoadedTestCase(String pageURL) {
+
+	public EnsightenManageLoadedTestCase(String pageURL, Object params) {
 		super(pageURL);
 		setName(Tools.ENSIGHTEN + " loaded - " + pageURL);
 	}
